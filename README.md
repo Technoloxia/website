@@ -1,3 +1,3 @@
-# Website
+This is the website for TECHNOLOXIA'18
 
-[technoloxia.tech](technoloxia.tech)
+[technoloxia.tech](https://www.technoloxia.tech)
