@@ -1,0 +1,254 @@
+<!doctype html>
+
+<!--TODO: Fix top-bar problem on smaller screens!-->
+
+<html>
+	
+	<head>
+		
+		<meta charset="utf-8">
+		<title>Technoloxia</title>
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+		<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+		
+	</head>
+	
+	<body>
+		
+		<div id="hero-image">
+			<div id="logo-main">
+				TECHNOLOXIA
+				<div id="date">
+					JUNE 29 - JULY 1, 2018
+				</div>
+			</div>
+			<div id="countdown-text">
+				<div id="days" class="z-depth-2 countdown-numbers"></div>
+				<div id="hours" class="z-depth-2 countdown-numbers"></div>
+				<div id="minutes" class="z-depth-2 countdown-numbers"></div>
+				<div id="seconds" class="z-depth-2 countdown-numbers"></div>
+			</div>
+		</div>
+		
+		<div id="top-bar" class="z-depth-3">
+    		<div id="logo-text">TECHNOLOXIA</div>
+			<i id="menu-icon" class="fa fa-bars"  onClick="openSideNav()"></i>
+		</div>
+		
+		<div id="side-nav" class="z-depth-4">
+		    <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()"><i class="fa fa-times-circle"></i></a>
+			<a href="#Home"><i class="fa fa-home"></i></a>
+  			<a href="#Schedule"><i class="far fa-calendar-alt"></i></a>
+			<a href="#FAQ"><i class="fas fa-question"></i></a>
+  			<a href="#Sponsors"><i class="fas fa-handshake"></i></a>
+			<a href="#Contact"><i class="fa fa-address-card"></i></a>
+		</div>
+		
+		<div id="top-nav" class="z-depth-3">
+			<a href="#Home"><i class="fa fa-home"></i>&nbsp; HOME</a>
+  			<a href="#Schedule"><i class="far fa-calendar-alt"></i>&nbsp; SCHEDULE</a>
+  			<a href="#FAQ"><i class="fas fa-question"></i>&nbsp; FAQ</a>
+			<a href="#Sponsors"><i class="fa fa-handshake"></i>&nbsp; SPONSORS</a>
+			<a href="#Contact"><i class="fa fa-address-card"></i>&nbsp; CONTACT</a>
+		</div>
+		
+		<div class="main-content">
+			<a id="Home"></a>
+			<div id="container-home" class="external-container">
+				<div id="main-home" class="internal-container">
+				  <div class="title">WHAT'S TECHNOLOXIA? <br/> <br/> </div>
+				  <div class="content">
+					  You mean apart from literally the best. Event. Ever? <br/>
+					  For the record, here are some of the things you can expect to do <br/> <br/> <br/>
+					  <div class="icons-wrap">
+					  	<div class="icon">
+					  		<img src="images/icons/learn.png"> <br/>
+					  		\\ learn <br/> <br/>
+					  	</div>
+					  	<div class="icon">
+					  		<img src="images/icons/innovate.png"> <br/>
+					  		\\ innovate <br/> <br/>
+					  	</div>
+					  	<div class="icon">
+					  		<img src="images/icons/code.png"> <br/>
+					  		\\ code/hack <br/> <br/>
+					  	</div>
+					  	<div class="icon">
+					  	<img src="images/icons/develop.png"> <br/>
+					  	\\ develop <br/> <br/> <br/>
+					  	</div>
+					  </div>
+					  Need better reasons to attend?<br/>
+					  Here's what else you get <br/> <br/> <br/>
+					  <div class="icons-wrap">
+					  	<div class="icon">
+					  		<img src="images/icons/free-food.png"><br/>
+					  		free food! <br/> <br/>
+						</div>
+						<div class="icon">
+					  		<img src="images/icons/goodies.png"><br/>
+					  		lots of goodies and sponsor swag! <br/> <br/>
+						</div>
+						<div class="icon">
+					  		<img src="images/icons/software-2.png"><br/>
+					  		all required software... <br/> <br/>
+						</div>
+						<div class="icon">
+					  		<img src="images/icons/hardware.png"> <br/>
+					  		...and hardware, all the three days
+						</div>
+				  	  </div>
+				   </div>
+			   </div>
+			</div>
+			<a id="Schedule"></a>
+			<div id="container-schedule" class="external-container">
+				<div class="title" id="schedule-header">
+					SCHEDULE
+				</div>
+				<div class="extra">
+					We are still working on it, but here's what you can expect
+				</div>
+				<div id="main-schedule" class="internal-container">
+					<div id="day-one" class="day">
+						<div class="sub-title">DAY ONE <br/> <br/> </div>
+						<div class="content">
+							<img src="images/icons/artificial-intelligence.png"> <br/>
+							Artificial Intelligence <br/> <br/> 
+							<img src="images/icons/software.png"> <br/>
+							Specialized Software <br/> <br/>
+							<img src="images/icons/graphic-design.png"> <br/>
+							UI/UX Design <br/> <br/> <br/>
+						</div>
+					</div>
+					<div id="day-two" class="day">
+						<div class="sub-title">DAY TWO <br/> <br/> </div>
+						<div class="content" style="text-decoration: none">
+							<img src="images/icons/open-source.png"> <br/>
+							Open Source<br/><br/>
+							<img src="images/icons/network.png"> <br/>
+							Networking <br/> <br/> 
+							<img src="images/icons/3d-printing.png"> <br/>
+							3D Printing <br/> <br/> <br/>
+						</div>
+					</div>
+					<div id="day-three" class="day">
+						<div class="sub-title">DAY THREE <br/> <br/> </div>
+						<div class="content">
+							<img src="images/icons/bitcoin.png"> <br/>
+							Bitcoin & Blockchain <br/> <br/> 
+							<img src="images/icons/vr-ar.png"> <br/>
+							VR/AR <br/> <br/>
+							<img src="images/icons/gaming.png"> <br/>
+							Gaming <br/> <br/> <br/>
+						</div>
+					</div>
+				</div>
+				<div class="extra">
+					But that's not all - there are a lot more things in stock! <br/>
+					Keep checking back here to stay updated!
+				</div>		
+			</div>
+			<a id="FAQ"></a>
+			<div id="container-FAQ" class="external-container">
+				<div id="main-FAQ" class="internal-container">
+					<div class="title">FREQUENTLY ASKED QUESTIONS <br/> <br/> <br/> </div>
+					<div class="content">
+						<ul class="collapsible z-depth-0 custom" data-collapsible="accordion">
+    						<li>
+      							<div class="collapsible-header">Who can attend?</div>
+      							<div class="collapsible-body"><span>If you are presently in high-school (grades 9-12), then you can apply. If you are an undergrad or above and want to get involved, contact us to apply for being a mentor or a speaker.</span></div>
+    						</li>
+    						<li>
+      							<div class="collapsible-header">Is this a hackathon?</div>
+      							<div class="collapsible-body"><span>Nope. It is not a hackathon. We are, as of now, referring to Technoloxia as a "tech-fest", you can expect workshops, competitions (aka "mini hackathon-esque" events) and a lot more!</span></div>
+    						</li>
+    						<li>
+      							<div class="collapsible-header">Are there any pre-requisites?</div>
+      							<div class="collapsible-body"><span>Nope, again. If you love technology and computer science, or even are just getting started, then you are more than welcome to apply!</span></div>
+    						</li>
+							<li>
+      							<div class="collapsible-header">What are the fees like?</div>
+      							<div class="collapsible-body"><span>Null. Nada. Zero. We'll provide you with free food, sponsor swag, hardware and software to keep you fueled all the three days</span></div>
+    						</li>
+							<li>
+      							<div class="collapsible-header">Is there a selection process/criteria?</div>
+      							<div class="collapsible-body"><span>Since this is a free event, seats are pretty limited. The applications are not open yet but we suggest you keep an eye on this website and apply as early as you can.</span></div>
+    						</li>
+							<li>
+      							<div class="collapsible-header">I don't want to attend. I want to speak/mentor/sponsor...</div>
+      							<div class="collapsible-body"><span>Feel free to reach out to us at any of our social pages, or the email address provided below and we'd be happy to help you!</span></div>
+    						</li>
+							<li>
+      							<div class="collapsible-header">What if I am in grade 6 and above and want to attend?</div>
+      							<div class="collapsible-body"><span>We are planning some workshops and events for younger students - stay tuned to this website for the details.</span></div>
+    						</li>
+							<li>
+      							<div class="collapsible-header">Is there anything at stake?</div>
+      							<div class="collapsible-body"><span>Yes! There is something for everyone - there are going to be multiple competitions each day where you can compete and win money, hardware and software!</span></div>
+    						</li>
+							<li>
+      							<div class="collapsible-header">My question is not listed here</div>
+      							<div class="collapsible-body"><span>Reach out to us at this.is.us@technoloxia.tech and we'd be more than happy to help!</span></div>
+    						</li>
+  						</ul>
+					</div>
+				</div>
+			</div>
+			<a id="Sponsors"></a>
+			<div id="container-sponsors" class="external-container">
+				<div id="main-sponsors" class="internal-container">
+					<div class="title" id="sponsorships-title"> SPONSORSHIPS <br/> <br/></div>
+					<div class="content" id="sponsorhips">
+						Interested in sponsoring us? Let's partner up! <br/>
+						Check out our sponsorship deck below or shoot us an email at this.is.us@technoloxia.tech <br/> <br/>
+						<a class="waves-effect waves-light btn" id="sponsorship-deck" href="Sponsorship_Deck.pdf">Sponsorship Deck</a>
+					</div>
+				</div>
+			</div>
+			<a id="Contact"></a>
+			<div id="container-contact" class="external-container">
+				<div id="main-contact" class="internal-container">
+					<div class="content">
+						Have any queries, want to report a bug or simply say hi? <br/>
+						Here's where you can find us on the Internet <br/> <br/>
+						<a href="https://github.com/Technoloxia">
+							<img src="images/icons/github.png"> 
+						</a>
+						&nbsp;
+						<a href="https://www.facebook.com/Technoloxia-554558708259701/">
+							<img src="images/icons/facebook-logo.png">
+						</a>
+						&nbsp;
+						<a href="https://twitter.com/technoloxia296">
+							<img src="images/icons/twitter-logo.png">
+						</a>
+						&nbsp;
+						<a href="mailto:this.is.us@technoloxia.tech">
+							<img src="images/icons/email.png">
+						</a>
+						&nbsp;
+						<a href="https://www.instagram.com/technoloxia/">
+							<img src="images/icons/instagram.png">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		
+		<script type="text/javascript" src="js/scripts.js"></script>
+		
+        <script type="text/javascript" src="js/materialize.js"></script>
+		
+	</body>
+
+</html>
